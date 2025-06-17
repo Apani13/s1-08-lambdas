@@ -1,4 +1,6 @@
 package level01.exercise8.model;
 
-public class StringReverser {
+@FunctionalInterface
+public interface StringReverser {
+    String reverse(String input);
 }
